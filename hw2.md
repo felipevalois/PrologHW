@@ -1,3 +1,5 @@
+```prolog
+
 /*
  * Felipe Costa - fvc2m9
  * CS4450 - Principles of Programming Languages
@@ -51,3 +53,4 @@ primes_factorial(L,H,Y) :-
     include(is_prime, Z, X),
     % applying factorial to each prime num
 	maplist(factorial, X, Y).
+```
